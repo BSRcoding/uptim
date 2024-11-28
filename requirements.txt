@@ -3,3 +3,4 @@ aiohttp
 requests
 psycopg2
 # Add other dependencies as necessary
+worker : python3 -m shivu
