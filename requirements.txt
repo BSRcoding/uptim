@@ -1,0 +1,5 @@
+telegram
+aiohttp
+requests
+psycopg2
+# Add other dependencies as necessary
