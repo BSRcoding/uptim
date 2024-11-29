@@ -76,7 +76,7 @@ async def monitor(update: Update, context: CallbackContext):
         await update.message.reply_text(f"✅ Server is UP!\n🖥️ CPU Usage: {cpu}%\n💾 Memory Usage: {memory}%\n📀 Disk Usage: {disk}%\n🌐 Connections: {connections}")
 
 # Setup bot dan perintah
-application = Application.builder().token(BOT_TOKEN).build()
+application = Application.builder().token(7411570597:AAFJ33Kh-6xr4_28p8CDz78Nw6GSP7mQlnU).build()
 application.add_handler(CommandHandler("start", start))
 application.add_handler(CommandHandler("monitor", monitor))
 
