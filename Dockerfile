@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Clone the repository containing the bot code
-RUN git clone https://github.com/BSRcoding/waifu.git /root/ptb
+RUN git clone https://github.com/BSRcoding/uptim.git /root/ptb
 
 # Set working directory to the cloned repo
 WORKDIR /root/ptb
